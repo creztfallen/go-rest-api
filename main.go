@@ -28,3 +28,7 @@ func main() {
 func getAlbums(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
 }
+
+func sum(a, b int) int {
+	return a + b
+}
