@@ -7,6 +7,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// load envs
 func EnvMongoURI() string {
 	err := godotenv.Load()
 	if err != nil {
